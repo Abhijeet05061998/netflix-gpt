@@ -1,8 +1,8 @@
-import './App.css';
+import Body from './component/Body';
 function App() {
   return (
     <>
-      <h1 className='text-center'>Welcome to React with TypeScript!</h1>
+      <Body />
     </>
   );
 }
