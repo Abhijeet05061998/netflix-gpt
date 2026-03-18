@@ -7,21 +7,18 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=Netflix-GPT&fontSize=40&fontColor=ffffff&animation=fadeIn" />
 </p>
 
---Create ReactApp
---Configration tailwind CSS
---Header Done
---Build Login Form
---Build Sign Up form
+🧠 About the Project
 
-Feature:-
+Netflix-GPT is a modern, AI-powered movie browsing platform inspired by Netflix, designed to deliver a personalized and immersive entertainment experience.
 
-. Login/Signup
-. SignIn/Signup for
-. Redirect to browser page
-. Browser(After Authentication)
-. header feature
-. Trailer of moview with details
-. Movie details
+It combines a clean, responsive UI with intelligent recommendations powered by GPT, allowing users to discover content using natural language instead of traditional search.
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/your-username/netflix-gpt?style=for-the-badge&color=yellow" />
+  <img src="https://img.shields.io/github/forks/your-username/netflix-gpt?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/github/issues/your-username/netflix-gpt?style=for-the-badge&color=red" />
+  <img src="https://img.shields.io/github/license/your-username/netflix-gpt?style=for-the-badge" />
+</p>
 
 🔄 App Flow (Animated Thinking)
 
