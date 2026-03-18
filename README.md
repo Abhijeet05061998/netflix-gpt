@@ -1,4 +1,11 @@
-NetFlix-GPT
+<h1 align="center">🎬 Netflix-GPT</h1>
+<p align="center">
+  <b>AI Powered Movie Recommendation Platform</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=Netflix-GPT&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
 --Create ReactApp
 --Configration tailwind CSS
