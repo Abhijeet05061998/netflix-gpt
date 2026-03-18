@@ -4,6 +4,7 @@ NetFlix-GPT
 --Configration tailwind CSS
 --Header Done
 --Build Login Form
+--Build Sign Up form
 
 Feature:-
 
