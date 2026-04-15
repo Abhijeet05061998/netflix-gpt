@@ -1,9 +1,19 @@
 import Header from './Header';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import NetflixBackground from '../Utility/netflixbackgroundimg.jpg';
+//import { CheckValidData } from '../Utiles/Validation';
 
 const Login = () => {
   const [isSignIn, setIsSignIn] = useState(true);
+  const email = useRef(null);
+  const password = useRef(null);
+
+  const HandleButtonClick = () => {
+    // Implement form submission logic here
+    //CheckValidData(email, password);
+    console.log(email.current.value);
+    console.log(password.current.value);
+  };
 
   const ToggleSignInForm = () => {
     setIsSignIn(!isSignIn);
@@ -19,6 +29,7 @@ const Login = () => {
         />
       </div>
       <form
+        onClick={(e) => e.preventDefault()}
         className='my-3 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
 bg-black/80 p-10 rounded-md flex flex-col w-100 space-y-4'
       >
@@ -33,12 +44,14 @@ bg-black/80 p-10 rounded-md flex flex-col w-100 space-y-4'
           />
         )}
         <input
+          ref={email}
           type='text'
           placeholder='Email'
           className='p-3 my-4 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none'
         />
 
         <input
+          ref={password}
           type='password'
           placeholder='Password'
           className='p-3 my-4 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none'
@@ -46,6 +59,7 @@ bg-black/80 p-10 rounded-md flex flex-col w-100 space-y-4'
         <button
           type='submit'
           className='p-3 my-4 bg-red-600 hover:bg-red-700 text-white py-3 rounded font-semibold'
+          onClick={HandleButtonClick}
         >
           {isSignIn ? 'Sign In' : 'Sign Up'}
         </button>
