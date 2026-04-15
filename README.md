@@ -13,12 +13,6 @@ Netflix-GPT is a modern, AI-powered movie browsing platform inspired by Netflix,
 
 It combines a clean, responsive UI with intelligent recommendations powered by GPT, allowing users to discover content using natural language instead of traditional search.
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/your-username/netflix-gpt?style=for-the-badge&color=yellow" />
-  <img src="https://img.shields.io/github/forks/your-username/netflix-gpt?style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/github/issues/your-username/netflix-gpt?style=for-the-badge&color=red" />
-  <img src="https://img.shields.io/github/license/your-username/netflix-gpt?style=for-the-badge" />
-</p>
 
 🔄 App Flow (Animated Thinking)
 
